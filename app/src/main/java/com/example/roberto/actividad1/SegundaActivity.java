@@ -18,4 +18,8 @@ public class SegundaActivity extends AppCompatActivity {
     private EditText txtTitleText;
     private EditText txtText;
 
+    public int pos;
+
+    private SegundaActivityEvents event;
+
 }
