@@ -15,6 +15,28 @@ public class SegundaActivityEvents implements View.OnClickListener {
     }
     @Override
     public void onClick(View view) {
+        if (view.getId() == R.id.btnProfile) {
+            Intent intent = new Intent(this.segundaActivity, MainActivity.class);
+            this.segundaActivity.startActivity(intent);
+            this.segundaActivity.finish();
+
+        } else if (view.getId() == R.id.btnBack) {
+            this.segundaActivity.setPos(--this.segundaActivity.pos);
+            if (this.segundaActivity.getPos() < 0) {
+                this.segundaActivity.setPos(3);
+            }
+            this.segundaActivity.setEditableText(this.segundaActivity.getPos());
+
+
+        } else if (view.getId() == R.id.btnNext) {
+            this.segundaActivity.setPos(++this.segundaActivity.pos);
+            if (this.segundaActivity.getPos() > 3) {
+                this.segundaActivity.setPos(0);
+            }
+
+            this.segundaActivity.setEditableText(this.segundaActivity.getPos());
+
+        }
 
     }
 }
