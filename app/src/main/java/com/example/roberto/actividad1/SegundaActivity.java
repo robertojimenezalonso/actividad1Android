@@ -54,7 +54,6 @@ public class SegundaActivity extends AppCompatActivity {
     public void isComponentEditable(Boolean isTrueOrFalse) {
         this.getTxtTitleText().setEnabled(isTrueOrFalse);
         this.getTxtText().setEnabled(isTrueOrFalse);
-
     }
 
     public void infoCollect() {
@@ -67,7 +66,6 @@ public class SegundaActivity extends AppCompatActivity {
         this.getText()[1]=this.getString(R.string.info2);
         this.getText()[2]=this.getString(R.string.info3);
         this.getText()[3]=this.getString(R.string.info4);
-
     }
 
     public void setEditableText(int pos) {
