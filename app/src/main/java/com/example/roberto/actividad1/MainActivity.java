@@ -12,9 +12,18 @@ public class MainActivity extends AppCompatActivity {
     private EditText txtName, txtEmail, txtTlf, txtAddress;
     private DatePicker datePicker;
 
+    private MainActivityEvent event;
+
+
+    String name, email, adress;
+    int tlf, day, month, year;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    public void isComponentEditable(boolean b) {
     }
 }
