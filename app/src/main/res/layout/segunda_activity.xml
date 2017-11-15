@@ -35,5 +35,39 @@
             android:text="Título"
             android:textSize="20sp" />
 
+        <EditText
+            android:id="@+id/txtTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:text="Texto"
+            android:textSize="20sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="268dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/mitxttext"
+                    android:layout_width="match_parent"
+                    android:layout_height="264dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+
+        </ScrollView>
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
