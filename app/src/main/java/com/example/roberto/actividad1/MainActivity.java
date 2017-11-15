@@ -36,7 +36,9 @@ public class MainActivity extends AppCompatActivity {
 
         this.datePicker = (DatePicker) this.findViewById(R.id.datePicker);
 
-
+        this.getBtnReturn().setText(R.string.btnReturn);
+        this.getBtnEdit().setText(R.string.btnEdit);
+        this.getBtnSave().setText(R.string.btnSave);
 
         this.isComponentEditable(false);
 

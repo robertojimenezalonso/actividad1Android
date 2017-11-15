@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Actividad1</string>
+    <string name="btnReturn" />
+    <string name="btnEdit" />
+    <string name="btnSave" />
+    <string name="btnBack" />
+    <string name="btnNext" />
+    <string name="btnProfile" />
+    <string name="t1" />
+    <string name="t2" />
+    <string name="t3" />
+    <string name="t4" />
+    <string name="info1" />
+    <string name="info2" />
+    <string name="info3" />
+    <string name="info4" />
 </resources>
