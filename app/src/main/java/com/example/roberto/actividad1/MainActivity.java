@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
 
         this.datePicker = (DatePicker) this.findViewById(R.id.datePicker);
 
+
+
         this.isComponentEditable(false);
 
         this.getBtnEdit().setOnClickListener(this.getEvent());
@@ -57,10 +59,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    //Método para recoger la información de los campos del formulario
-
     public void infoCollect() {
-        //Se hacen uso de los atributos auxiliares creados que recogen la información de los campos
+
         this.setName(this.getTxtName().getText().toString());
         this.setEmail(this.getTxtEmail().getText().toString());
         this.setTlf(Integer.parseInt(this.getTxtTlf().getText().toString()));
@@ -88,9 +88,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
-
-
-    //GETTER Y SETTER
 
     public Button getBtnSave() {
         return btnSave;
